@@ -3,7 +3,7 @@ import usePlaces from '../../hooks/usePlaces';
 
 const SingleOrer = ({ item }) => {
     const [places] = usePlaces();
-    const { address, city, email, name, booking_id } = item;
+    const { address, city, email, name, booking_id, status } = item;
     const myOrder = places.find(place => place._id === booking_id);
 
     return (
@@ -20,7 +20,7 @@ const SingleOrer = ({ item }) => {
                         <h5 className="">Address: {address}</h5>
                         <h5 className="">Email: {email}</h5>
                         <h5 className="">City: {city}</h5>
-                        {/* <h5 className="">Status: {status}</h5> */}
+                        <h5 className="">Status: {status}</h5>
                     </div>
                 </div>
             </div>
