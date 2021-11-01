@@ -22,14 +22,3 @@
       color: #006C9E;
       text-align: left;
   }
-  .icon{
-    opacity: 0.7;
-    font-size: 18px;
-    padding: 0px 10px 0px;
-    box-sizing: border-box;
-    color: #00486C;
-}
-
-.icon:hover{
-    color: rgb(72, 87, 86);
-}

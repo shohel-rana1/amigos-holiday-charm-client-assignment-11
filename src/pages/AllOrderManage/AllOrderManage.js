@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import usePlaces from '../../hooks/usePlaces';
 
-const AllOrderManage = ({ order }) => {
+const AllOrderManage = ({ order, handleUpdate }) => {
     const [places] = usePlaces();
     const { name, address, city, booking_id, status } = order;
     const [orders, setOrders] = useState({});
 
-    const myPlace = places.find(place => place._id === booking_id)
-    console.log(myPlace);
+    const myPlace = places.find(place => place._id === booking_id);
+
 
     //delete an user
     const handleDelete = id => {
@@ -40,12 +40,12 @@ const AllOrderManage = ({ order }) => {
                 </div>
                 <div className="col-md-8">
                     <div className="text-left">
-                        <h3 className="">name: {name}</h3>
+                        <h3 className="">Name: {name}</h3>
                         <h5 className="">Address: {address}</h5>
                         <h5 className="">City: {city}</h5>
                         <h5 className="">Status: {status}</h5>
                         <button onClick={() => handleDelete(order._id)}>Delete</button>
-                        <Link to={`/update/${order._id}`}>Update</Link>
+                        <button onClick={() => handleUpdate(order._id)}>Update Status</button>
                     </div>
                 </div>
             </div>

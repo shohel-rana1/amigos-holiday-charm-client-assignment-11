@@ -23,15 +23,6 @@ const SInglePlace = ({ place }) => {
                         Book Now
                     </Link>
                 </Card.Body>
-                {/* <Card.Body>
-                    <div className="d-flex justify-content-center align-items-end">
-                        <i className="fab fa-facebook-square icon"></i>
-                        <i className="fab fa-twitter icon"></i>
-                        <i className="fas fa-share-square icon"></i>
-                        <i className="fab fa-google-plus-g icon"></i>
-
-                    </div>
-                </Card.Body> */}
             </Card>
         </Col>
     );

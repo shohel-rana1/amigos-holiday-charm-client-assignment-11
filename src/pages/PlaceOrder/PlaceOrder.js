@@ -2,7 +2,6 @@ import React from 'react';
 import './PlaceOrder.css'
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import { useForm } from 'react-hook-form';
 import axios from 'axios';
@@ -54,23 +53,9 @@ const PlaceOrder = () => {
                                     <input type="number" {...register("phone")} placeholder="Phone" />
                                     <input type="text" {...register("city")} placeholder="City" />
                                     <input type="text" {...register("status")} value="Pending" style={{ border: 'none' }} />
-                                    <input type="submit" />
+                                    <input type="submit" value="Confirm" />
                                 </form>
                             </div>
-                            {/* <div className="d-flex justify-content-between ">
-                                <Link
-                                    to={`/mybookings/${placeId}`}
-                                    className="btn w-50 btnBg mx-1"
-                                >
-                                    Delete Order
-                                </Link>
-                                <Link
-                                    to={`/mybookings/${placeId}`}
-                                    className="btn w-50 btnBg mx-1"
-                                >
-                                    Confirm Order
-                                </Link>
-                            </div> */}
                         </div>
                     </div>
                 </div>
