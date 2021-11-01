@@ -5,19 +5,21 @@ const ManageBooking = () => {
     const [orders, setOrders] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:7000/orders')
+        fetch('https://calm-cliffs-67341.herokuapp.com/orders')
             .then(res => res.json())
             .then(data => setOrders(data))
     }, [])
     return (
-        <div className="py-3">
-            <h2 className="pb-2">Orders available</h2>
-            {
-                orders.map(order => <AllOrderManage
-                    key={order._id}
-                    order={order}
-                ></AllOrderManage>)
-            }
+        <div className="backgrnd-img">
+            <div className="py-3">
+                <h2 className="pb-2">Orders available</h2>
+                {
+                    orders.map(order => <AllOrderManage
+                        key={order._id}
+                        order={order}
+                    ></AllOrderManage>)
+                }
+            </div>
         </div>
     );
 };

@@ -12,7 +12,7 @@ const Header = () => {
         <>
             <Navbar collapseOnSelect expand="lg" sticky="top" bg="white">
                 <div className="container mx-auto">
-                    <Link className="navbar-brand " to="/home"><img className="logo img-fluid" src={logo} alt="" /><span className="logo-text">TRAVEL</span></Link>
+                    <Link className="navbar-brand" to="/home"><img className="logo img-fluid" src={logo} alt="" /><span className="logo-text">TRAVEL</span></Link>
                     <Navbar.Toggle />
                     <Navbar.Collapse>
                         <Nav className="nav-bar">
@@ -42,7 +42,7 @@ const Header = () => {
                                     <Nav.Link onClick={logout}> <span className="logout-btn">Log Out</span> </Nav.Link>
                                     :
                                     <Nav.Link eventKey="4" as={Link} to="/login">
-                                        <span className="nav-text">Login</span>
+                                        <span className="nav-text login-btn">Login</span>
                                     </Nav.Link>}
                             </Nav.Item>
                         </Nav>
@@ -52,11 +52,12 @@ const Header = () => {
             <div className="banner">
                 <h1 style={{ color: '#F58220' }}>
                     Welcome Amigos <br />
-                    <span>to our tour and travel planer site</span>
+                    <span> Have a <br /> dreamy holiday</span>
                 </h1>
-                <p>
-                    Doctors Care Hospital is directed maintained by some specilized doctors . That's why we named it <br /> Doctors Care Hospital.It is situated at Banani, Dhaka.It started its journey back in 2009, <br /> it has grown-up as one of the largest Industrial  Commercial Icons.
-                </p>
+                <div className="d-flex justify-content-around pt-5 mx-auto">
+                    <div className="py-3 px-5 banner-btn"><h2><a href="/home">Book A Package</a></h2></div>
+                    <div className="py-3 px-4 banner-btn"><h2>Starting With $1000</h2></div>
+                </div>
             </div>
         </>
     );

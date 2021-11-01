@@ -26,11 +26,11 @@ const Login = () => {
     return (
         <div className="backgrnd-img">
             <div className="container login-form ">
-                <div className="py-5">
-                    <h2>SignIn Please</h2>
-                    <div className="text-left"><h6>SignIn With Apps</h6></div>
+                <div className="py-5 px-5 my-5 google-login text-left text-info">
+                    <h2>Login Please</h2>
+                    <div><h6>Login With Google</h6></div>
                     <div className="text-lg-start">
-                        <button onClick={handleGoogleLogin} type="submit" className="btn btn-secondary">Google Sing In</button>
+                        <button onClick={handleGoogleLogin} type="submit" className="btn btn-secondary w-100 text-info">Google Sing In</button>
                     </div>
                 </div>
             </div>

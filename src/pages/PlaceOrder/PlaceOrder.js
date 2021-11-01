@@ -15,7 +15,7 @@ const PlaceOrder = () => {
 
     const onSubmit = data => {
         data.booking_id = placeId;
-        axios.post('http://localhost:7000/orders', data)
+        axios.post('https://calm-cliffs-67341.herokuapp.com/orders', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Added successfully')
@@ -27,7 +27,7 @@ const PlaceOrder = () => {
     }
 
     useEffect(() => {
-        fetch(`http://localhost:7000/places/${placeId}`)
+        fetch(`https://calm-cliffs-67341.herokuapp.com/places/${placeId}`)
             .then(res => res.json())
             .then(data => setPlace(data))
             ;

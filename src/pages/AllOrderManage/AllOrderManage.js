@@ -14,7 +14,7 @@ const AllOrderManage = ({ order }) => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you Sure to Delete?');
         if (proceed) {
-            const url = `http://localhost:7000/orders/${id}`;
+            const url = `https://calm-cliffs-67341.herokuapp.com/orders/${id}`;
 
             fetch(url, {
                 method: 'DELETE'
