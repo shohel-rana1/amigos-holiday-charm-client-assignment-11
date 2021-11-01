@@ -1,0 +1,82 @@
+[
+    {
+        "key": 19,
+        "image": "https://i.ibb.co/LkDHf7L/los-glaciares-national-park-20.jpg",
+        "name": "Los Glaciares",
+        "country": "Argentina",
+        "description": " most beautiful places in the world.nicest place in the world",
+        "rating": 2.5,
+        "cost": 909,
+        "ticket": 34
+    },
+    {
+        "key": 20,
+        "image": "https://i.ibb.co/hV3JnXc/venice-italy-21.jpg",
+        "name": "Venice",
+        "country": "Italy",
+        "description": "Venice is a dream destination.nicest place in the world",
+        "rating": 4,
+        "cost": 214,
+        "ticket": 98
+    },
+    {
+        "key": 21,
+        "image": "https://i.ibb.co/hBnshLd/iguazu-national-park-22.jpg",
+        "name": "Iguazu National",
+        "country": "Brazil",
+        "description": "The crown jewel of this national park,country has huge significance",
+        "rating": 3.5,
+        "cost": 323,
+        "ticket": 67
+    },
+    {
+        "key": 22,
+        "image": "https://i.ibb.co/3SyQvzz/saint-michel-france-shutterstock-400627612.jpg",
+        "name": "Palace and Garden",
+        "country": "Austria",
+        "description": "Previously housing the Habsburg emperors nicest place in the world",
+        "rating": 3.5,
+        "cost": 455,
+        "ticket": 87
+    },
+    {
+        "key": 23,
+        "image": "https://i.ibb.co/PzDyP14/statue-of-liberty-26.jpg",
+        "name": "Statue of Liberty",
+        "country": "USA",
+        "description": "Gifted to the USA by France on its 100th anniversary",
+        "rating": 3.5,
+        "cost": 422,
+        "ticket": 56
+    },
+    {
+        "key": 24,
+        "image": "https://i.ibb.co/QHkQB9B/machu-picchu-peru-6.jpg",
+        "name": "Machu Picchu",
+        "country": "Peru",
+        "description": "Rising up from a mountain forest ,country has huge significance",
+        "rating": 3.5,
+        "cost": 544,
+        "ticket": 77
+    },
+    {
+        "key": 25,
+        "image": "https://i.ibb.co/jrrSJnd/forbidden-city-25.jpg",
+        "name": "Forbidden City",
+        "country": "China",
+        "description": "Behind the ten-meter defensive ,country has huge significance",
+        "rating": 3.5,
+        "cost": 543,
+        "ticket": 54
+    },
+    {
+        "key": 26,
+        "image": "https://i.ibb.co/6FNmY8x/uluru-kata-tjuta-national-park-australia-shutterstock-681256057.jpg",
+        "name": "Wulingyuan",
+        "country": "China",
+        "description": "Known for its limestone pillars and rainforests.country",
+        "rating": 3.5,
+        "cost": 799,
+        "ticket": 60
+    }
+]
