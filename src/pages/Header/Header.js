@@ -51,12 +51,12 @@ const Header = () => {
             </Navbar>
             <div className="banner">
                 <h1 style={{ color: '#F58220' }}>
-                    Welcome Amigos <br />
+                    Welcome All Amigos <br />
                     <span> Have a <br /> dreamy holiday</span>
                 </h1>
                 <div className="d-flex justify-content-around pt-5 mx-auto">
                     <div className="py-3 px-5 banner-btn"><h2><a href="/home">Book A Package</a></h2></div>
-                    <div className="py-3 px-4 banner-btn"><h2>Starting With $1000</h2></div>
+                    <div className="py-3 px-4 banner-btn"><h2>Starting Budget $1000</h2></div>
                 </div>
             </div>
         </>
